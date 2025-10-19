@@ -1,8 +1,16 @@
 {
   "mcpServers": {
     "shadcn": {
-      "command": "npx",
+      "command": "bunx",
       "args": ["shadcn@latest", "mcp"]
+    },
+    "ultracite": {
+      "command": "bunx",
+      "args": ["-y", "mcp-remote", "https://www.ultracite.ai/api/mcp/mcp"]
+    },
+    "Better Auth": {
+      "url": "https://mcp.chonkie.ai/better-auth/better-auth-builder/mcp",
+      "headers": {}
     }
   }
 }
