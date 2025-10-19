@@ -6,8 +6,9 @@
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start",
-    "lint": "biome check",
-    "format": "biome format --write"
+    "lint": "ultracite check",
+    "lint:fix": "ultracite fix",
+    "lint:unsafe": "ultracite fix --unsafe"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
