@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build --turbopack",
-    "start": "next start",
-    "lint": "biome check",
-    "format": "biome format --write"
+    "dev": "bunx --bun next dev --turbopack",
+    "build": "bunx --bun next build --turbopack",
+    "start": "bunx --bun next start",
+    "lint": "bunx --bun biome check",
+    "format": "bunx --bun biome format --write"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
