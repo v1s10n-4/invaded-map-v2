@@ -25,6 +25,9 @@
     "enabled": true,
     "rules": {
       "recommended": true,
+      "style": {
+        "useFilenamingConvention": "off"
+      },
       "suspicious": {
         "noUnknownAtRules": "off"
       }
