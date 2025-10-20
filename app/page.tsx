@@ -53,7 +53,7 @@ export default function Home() {
                 <Link href="/dashboard">Go to Dashboard</Link>
               </Button>
               <Button asChild variant="outline">
-                <Link href="/account">Manage Account</Link>
+                <Link href="/account/settings">Manage Account</Link>
               </Button>
               <Button asChild variant="outline">
                 <Link href="/api/auth/sign-out">Sign Out</Link>
